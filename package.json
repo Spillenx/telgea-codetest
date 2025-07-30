@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Spillenx/telgea-codetest/issues"
   },
-  "homepage": "https://github.com/Spillenx/telgea-codetest#readme"
+  "homepage": "https://github.com/Spillenx/telgea-codetest#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
