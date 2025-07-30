@@ -129,3 +129,5 @@ This will execute all tests in the test/ directory using Vitest.
 - Only the REST converter is implemented.
 - All mock data lives outside src/, in the test/mocks/ folder.
 - The SOAP converter and extended validation are out of scope for this partial implementation.
+
+![Disc Test Results](discresult.png)
