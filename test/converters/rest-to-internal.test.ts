@@ -9,6 +9,7 @@ const loadRestMock = (): RestUsageResponse => {
 	return JSON.parse(data);
 };
 
+// Tests for REST to internal format converter, using the mvno_rest_spec.json mock
 describe('convertRestToInternal', () => {
 	it('should map REST response JSON to internal format', () => {
 		const mock = loadRestMock();

@@ -1,7 +1,7 @@
-// Converts a REST payload to an internal format
 import { Router } from 'express';
 import { convertRestToInternal } from '../converters/rest-to-internal';
 
+// Converts a REST payload to an internal format
 const router = Router();
 
 router.post('/convert/rest', (req, res) => {

@@ -1,6 +1,7 @@
 import { RestUsageResponse } from '../types/rest';
 import { InternalFormat } from '../types/internal';
 
+// Converter for REST to internal format
 export function convertRestToInternal(
 	data: RestUsageResponse
 ): Partial<InternalFormat> {
