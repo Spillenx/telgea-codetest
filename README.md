@@ -29,7 +29,7 @@ Key decisions:
 │ ├── converters/
 │ │ └── rest-to-internal.test.ts # Unit test for REST converter
 │ └── mocks/
-│ └── mvno_rest_spec.json # Example REST payload for testing
+│ │ └── mvno_rest_spec.json # Example REST payload for testing
 ├── package.json
 ├── tsconfig.json
 └── README.md
